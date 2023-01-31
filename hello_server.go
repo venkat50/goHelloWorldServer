@@ -12,7 +12,6 @@ import (
 	"github.com/gorilla/mux"
 )
 
-
 func handler(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query()
 	name := query.Get("name")
