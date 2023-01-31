@@ -28,7 +28,7 @@ func CreateGreeting(name string) string {
 }
 
 func main() {
-	//log.Println("Starting server")
+	log.Println("Starting server")
 	// Create Server and Route Handlers
 	r := mux.NewRouter()
 
